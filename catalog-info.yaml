@@ -2,25 +2,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dora-the-explorer
-  description: A service that acts against GitHub repos to generate DORA events.
+  name: go-template
+  description: A template repo for Golang projects.
 
   # Annotations Docs: https://backstage.io/docs/features/software-catalog/well-known-annotations
   annotations:
-    github.com/project-slug: liatrio/dora-the-explorer
+    github.com/project-slug: liatrio/go-template
 
   # Tags Docs: https://backstage.io/docs/features/software-catalog/descriptor-format/#metadatatags-optional
   tags:
     - go
     - docker
     - makefile
-    - o11y
-    - observability
-    - monitoring
     - open-source
-    - metrics
-    - dora
-    - engineering-effectiveness
 
   # Links Docs: https://backstage.io/docs/features/software-catalog/descriptor-format/#links-optional
   links:
