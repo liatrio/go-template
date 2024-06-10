@@ -1,0 +1,43 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dora-the-explorer
+  description: A service that acts against GitHub repos to generate DORA events.
+
+  # Annotations Docs: https://backstage.io/docs/features/software-catalog/well-known-annotations
+  annotations:
+    github.com/project-slug: liatrio/dora-the-explorer
+
+  # Tags Docs: https://backstage.io/docs/features/software-catalog/descriptor-format/#metadatatags-optional
+  tags:
+    - go
+    - docker
+    - makefile
+    - o11y
+    - observability
+    - monitoring
+    - open-source
+    - metrics
+    - dora
+    - engineering-effectiveness
+
+  # Links Docs: https://backstage.io/docs/features/software-catalog/descriptor-format/#links-optional
+  links:
+    - url: https://tag-o11y.liatr.io
+      title: TAG O11y Landing Page
+      icon: web
+    - url: https://openo11y.dev
+      title: OpenO11y Home Page
+      icon: web
+
+spec:
+  # https://backstage.io/docs/features/software-catalog/descriptor-format/#spectype-required
+  type: service
+  # Review lifecycle and pick one of the three that make the most sense.
+  # https://backstage.io/docs/features/software-catalog/descriptor-format/#speclifecycle-required
+  lifecycle: production
+  # Please update to include the GitHub Team name tied to this project.
+  # https://backstage.io/docs/features/software-catalog/descriptor-format/#specowner-required
+  owner: tag-o11y
+  system: o11y
