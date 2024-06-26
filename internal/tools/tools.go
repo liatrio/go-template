@@ -1,7 +1,7 @@
 //go:build tools
 // +build tools
 
-package tools // import "github.com/liatrio/github-dora-generator/internal/tools"
+package tools // import "github.com/liatrio/go-template/internal/tools"
 
 // This file exists to ensure consistent versioning and tooling installs based on
 // https://go.dev/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module
