@@ -3,7 +3,7 @@ module github.com/liatrio/dora-the-explorer/internal/tools
 go 1.21.6
 
 require (
-	github.com/golangci/golangci-lint v1.55.2
+	github.com/golangci/golangci-lint v1.59.1
 	github.com/goreleaser/goreleaser v1.26.2
 	github.com/securego/gosec/v2 v2.18.2
 	golang.org/x/tools v0.17.0
