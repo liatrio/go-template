@@ -1,26 +1,26 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/liatrio/dora-the-explorer/actions/workflows/build.yml?query=branch%3Amain">
-    <img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/liatrio/dora-the-explorer/build.yml?branch=main&style=for-the-badge">
+  <a href="https://github.com/liatrio/go-template/actions/workflows/build.yml?query=branch%3Amain">
+    <img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/liatrio/go-template/build.yml?branch=main&style=for-the-badge">
   </a>
-  <a href="https://goreportcard.com/report/github.com/liatrio/dora-the-explorer">
-    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/liatrio/dora-the-explorer?style=for-the-badge">
+  <a href="https://goreportcard.com/report/github.com/liatrio/go-template">
+    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/liatrio/go-template?style=for-the-badge">
   </a>
-  <a href="https://codecov.io/gh/liatrio/dora-the-explorer/branch/main" >
-    <img alt="Codecov Status" src="https://img.shields.io/codecov/c/github/liatrio/dora-the-explorer?style=for-the-badge"/>
+  <a href="https://codecov.io/gh/liatrio/go-template/branch/main" >
+    <img alt="Codecov Status" src="https://img.shields.io/codecov/c/github/liatrio/go-template?style=for-the-badge"/>
   </a>
-  <a href="https://github.com/liatrio/dora-the-explorer/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/liatrio/dora-the-explorer?include_prereleases&style=for-the-badge">
+  <a href="https://github.com/liatrio/go-template/releases">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/liatrio/go-template?include_prereleases&style=for-the-badge">
   </a>
-  <a href="https://api.securityscorecards.dev/projects/github.com/liatrio/dora-the-explorer/badge">
-    <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/liatrio/dora-the-explorer?label=openssf%20scorecard&style=for-the-badge">
+  <a href="https://api.securityscorecards.dev/projects/github.com/liatrio/go-template/badge">
+    <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/liatrio/go-template?label=openssf%20scorecard&style=for-the-badge">
   </a>
 </p>
 
 ---
 
-# dora-the-explorer
+# go-template
 
 ## Quick Start Guide
 

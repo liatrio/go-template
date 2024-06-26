@@ -25,7 +25,7 @@ func init() {
         "encoding": "json",
         "outputPaths": ["stdout"],
         "errorOutputPaths": ["stderr"],
-        "initialFields": {"service": "dora-the-explorer"},
+        "initialFields": {"service": "go-template"},
         "encoderConfig": {
             "messageKey": "message",
             "levelKey": "level",

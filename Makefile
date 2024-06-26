@@ -22,7 +22,7 @@ endif
 
 .PHONY: build
 build: install-tools
-	GOOS=$(OS) GOARCH=$(ARCH) go build -o $(BUILD_DIR)/dora
+	GOOS=$(OS) GOARCH=$(ARCH) go build -o $(BUILD_DIR)/go-template
 
 # TODO: fix this release through goreleaser. Goreleaser installed through tools.go
 # is the OSS version and doesn't support the `partial:` option in the
