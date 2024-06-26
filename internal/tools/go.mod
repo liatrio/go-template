@@ -7,7 +7,7 @@ require (
 	github.com/goreleaser/goreleaser v1.26.2
 	github.com/securego/gosec/v2 v2.20.0
 	golang.org/x/tools v0.22.0
-	golang.org/x/vuln v1.0.3
+	golang.org/x/vuln v1.1.2
 	honnef.co/go/tools v0.4.7
 )
 
