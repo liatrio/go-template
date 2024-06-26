@@ -7,7 +7,7 @@ toolchain go1.22.4
 require (
 	github.com/golangci/golangci-lint v1.59.1
 	github.com/goreleaser/goreleaser v1.26.2
-	github.com/securego/gosec/v2 v2.20.1-0.20240525090044-5f0084eb01a9
+	github.com/securego/gosec/v2 9a4a741e6b37
 	golang.org/x/tools v0.22.0
 	golang.org/x/vuln v1.1.2
 	honnef.co/go/tools v0.4.7
