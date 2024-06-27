@@ -7,7 +7,7 @@ before:
     - go generate ./...
     - make
 builds:
-  - dir: ./build
+  - dir: ./
     env:
       - CGO_ENABLED=0
     goos:
