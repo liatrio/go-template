@@ -33,10 +33,8 @@ dockers:
   - goos: linux
     goarch: '386'
     image_templates:
-      - ghcr.io/liatrio/liatrio-otel-collector:{{ .Version }}-386
-      - ghcr.io/liatrio/liatrio-otel-collector:latest-386
-    extra_files:
-      - config/config.yaml
+      - ghcr.io/liatrio/go-template:{{ .Version }}-386
+      - ghcr.io/liatrio/go-template:latest-386
     use: buildx
     build_flag_templates:
       - --pull
@@ -49,10 +47,8 @@ dockers:
   - goos: linux
     goarch: amd64
     image_templates:
-      - ghcr.io/liatrio/liatrio-otel-collector:{{ .Version }}-amd64
-      - ghcr.io/liatrio/liatrio-otel-collector:latest-amd64
-    extra_files:
-      - config/config.yaml
+      - ghcr.io/liatrio/go-template:{{ .Version }}-amd64
+      - ghcr.io/liatrio/go-template:latest-amd64
     use: buildx
     build_flag_templates:
       - --pull
@@ -65,10 +61,8 @@ dockers:
   - goos: linux
     goarch: arm64
     image_templates:
-      - ghcr.io/liatrio/liatrio-otel-collector:{{ .Version }}-arm64
-      - ghcr.io/liatrio/liatrio-otel-collector:latest-arm64
-    extra_files:
-      - config/config.yaml
+      - ghcr.io/liatrio/go-template:{{ .Version }}-arm64
+      - ghcr.io/liatrio/go-template:latest-arm64
     use: buildx
     build_flag_templates:
       - --pull
