@@ -24,7 +24,7 @@ jobs:
   lint:
     strategy:
       matrix:
-        go: ['1.21']
+        go: ['1.22']
     name: lint
     runs-on: ubuntu-latest
     steps:
@@ -60,7 +60,7 @@ jobs:
       matrix:
         GOOS: [darwin, linux, windows]
         GOARCH: [arm64, amd64, '386']
-        go: ['1.21']
+        go: ['1.22']
         exclude:
           - GOOS: darwin
             GOARCH: '386'
@@ -106,7 +106,7 @@ jobs:
   test:
     strategy:
       matrix:
-        go: ['1.21']
+        go: ['1.22']
     name: test
     runs-on: ubuntu-latest
     steps:
