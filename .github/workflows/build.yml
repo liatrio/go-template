@@ -70,8 +70,7 @@ jobs:
             GOARCH: arm
           - GOOS: windows
             GOARCH: arm64
-    runs-on:
-      group: bigger
+    runs-on: ubuntu-latest
     steps:
       - name: Check out code
         uses: actions/checkout@v4
@@ -129,8 +128,7 @@ jobs:
   go-semantic-release:
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [lint, build]
-    runs-on:
-      group: bigger
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:

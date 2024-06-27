@@ -8,8 +8,7 @@ on:
 
 jobs:
   release:
-    runs-on:
-      group: bigger
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       packages: write
