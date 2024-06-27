@@ -34,7 +34,7 @@ grbuild:
 .PHONY: dockerbuild
 dockerbuild:
 	$(MAKE) build OS=linux ARCH=$(ARCH)
-	docker build . -t gen:local --platform linux/$(ARCH)
+	docker build . -t liatrio/go-template:localdev --build-arg BIN_PATH="./build/go-template" --platform linux/$(ARCH)
 
 # Setting the paralellism to 1 to improve output readability. Reevaluate later as needed for performance
 .PHONY: checks

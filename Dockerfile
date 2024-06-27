@@ -1,6 +1,6 @@
 FROM scratch
 
-ARG BIN_PATH=build/go-template
+ARG BIN_PATH=go-template
 
 ARG UID=10001
 USER ${UID}
