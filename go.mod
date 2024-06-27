@@ -1,6 +1,6 @@
 module github.com/liatrio/go-template
 
-go 1.21.6
+go 1.22.4
 
 require go.uber.org/zap v1.27.0
 
