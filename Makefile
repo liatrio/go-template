@@ -33,8 +33,8 @@ grbuild:
 
 .PHONY: dockerbuild
 dockerbuild:
-	$(MAKE) build OS=$(OS) ARCH=$(ARCH)
-	docker build . -t gen:local
+	$(MAKE) build OS=linux ARCH=$(ARCH)
+	docker build . -t gen:local --platform linux/$(ARCH)
 
 # Setting the paralellism to 1 to improve output readability. Reevaluate later as needed for performance
 .PHONY: checks
