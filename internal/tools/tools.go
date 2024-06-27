@@ -8,7 +8,7 @@ package tools // import "github.com/liatrio/go-template/internal/tools"
 
 import (
 	_ "github.com/golangci/golangci-lint/cmd/golangci-lint"
-	_ "github.com/goreleaser/goreleaser"
+	_ "github.com/goreleaser/goreleaser/v2"
 	_ "github.com/securego/gosec/v2/cmd/gosec"
 	_ "golang.org/x/tools/cmd/goimports"
 	_ "golang.org/x/vuln/cmd/govulncheck"
