@@ -32,6 +32,6 @@ Presuming you have [homebrew](https://brew.sh) installed:
 
 1. Run `brew bundle` to install `go` and `taskfile`
 2. Run `make` to run core build requirements
-4. Run `make check` to run core build requirements
-5. Run `pre-commit install` to install the pre-commits
-6. #ShipIt
+3. Run `make checks` to run core build requirements
+4. Run `pre-commit install` to install the pre-commits
+5. #ShipIt
