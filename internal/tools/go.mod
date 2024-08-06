@@ -2,7 +2,7 @@ module github.com/liatrio/go-template/internal/tools
 
 go 1.22
 
-toolchain go1.22.4
+toolchain go1.22.6
 
 require (
 	github.com/golangci/golangci-lint v1.59.1
